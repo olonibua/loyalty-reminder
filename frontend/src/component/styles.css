@@ -1,0 +1,214 @@
+/* LoyaltyReminderForm.css */
+.form-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.form-container h2 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color:#8a8a8a;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group input,
+.input-group select,
+textarea {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+/* General styles */
+.Loyaltycontainer {
+  width: 946px;
+  padding: 8px;
+  gap: 24px;
+  border: 1px solid #392B75;
+  border-radius: 5px;
+  margin: auto;
+}
+
+/* Heading styles */
+.Loyaltyh2 {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: left;
+  color: #392B75;
+}
+
+/* Section styles */
+.LoyaltyHeadingsection {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Sub-heading styles */
+.LoyaltyHeadingsectionh3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.LoyaltyfirstForm{
+    display: flex;
+    gap: 10px;
+    font-size: '16px';
+    font-weight: '400';
+    text-align: left;
+}
+
+.LoyaltyfirstFormh3{
+    font-size: 16px;
+    font-weight: 400;
+}
+.LoyaltyfirstFormInput{
+    border: 1px solid #392B75;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.LoyaltyfirstFormSelect{
+    width: 155px;
+    border: 1px solid #392B75;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.LoyaltysecondForm{
+    gap: 2px;
+    text-align: left;
+}
+
+.LoyaltysecondFormh3{
+    font-size: 16px;
+    font-weight: 700;
+}
+.LoyaltysecondFormsection{
+    display: flex;
+    gap: 10px;
+
+}
+.LoyaltysecondFormInput{
+    border: 1px solid #392B75;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 10px;
+}
+.LoyaltysecondFormSelect{
+    width: 155px;
+    border: 1px solid #392B75;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.loyaltyMsgh3{
+    font-size: 14px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+.loyaltyMsgTextArea{
+    width: 100%;
+  height: 74px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #392B75;
+
+}
+.btnSection{
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+
+}
+/* Paragraph styles */
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Input and select styles */
+input[type="text"],
+select {
+  border: 1px solid #392B75;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+select {
+  width: 155px;
+}
+
+/* Textarea styles */
+textarea {
+  width: 100%;
+  height: 74px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #392B75;
+}
+
+/* Button styles */
+button {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Cancel button */
+.cancel-btn {
+  background-color: white;
+  border: 1px solid #937CF4;
+  color: #937CF4;
+}
+
+/* Save button */
+.save-btn {
+  background-color: #937CF4;
+  border: none;
+  color: white;
+}
