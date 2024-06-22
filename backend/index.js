@@ -1,10 +1,13 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const path = require("path"); // Import path module
+const path = require("path");
+const dotenv = require("dotenv");
 
 const userRoutes = require("./routes/userRoutes");
 const reminderRoutes = require("./routes/reminderRoutes");
+
+dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -15,11 +18,9 @@ app.use(cors());
 app.use(userRoutes);
 app.use(reminderRoutes);
 
-// Serve static files from the frontend build directory
-const buildPath = path.join(__dirname, "frontend/build");
+const buildPath = path.join(__dirname, "./build");
 app.use(express.static(buildPath));
 
-// Handle React routing, return all requests to React app
 app.get("*", (req, res) => {
   res.sendFile(path.join(buildPath, "index.html"));
 });
